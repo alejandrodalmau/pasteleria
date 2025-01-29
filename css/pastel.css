@@ -254,7 +254,7 @@ li {
 }
 
 /* esta parte es por debajo de 400*/
-@media screen and (min-device-width: 1600px) and (max-device-width: 720px) {
+@media only screen and (min-device-width: 1600px) and (max-device-width: 720px){
 
     nav ul {
         list-style: none;
