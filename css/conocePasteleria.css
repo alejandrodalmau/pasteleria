@@ -1,0 +1,31 @@
+.historia p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.letras{
+    font-size: 20px;
+}
+.cosas img {
+    width: 200px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:400px)  {
+    .todo{
+        display: flex;
+        flex-direction: column;
+    }
+    .historia {
+        font-size: 20px;
+        font-family: "Sofia", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+}

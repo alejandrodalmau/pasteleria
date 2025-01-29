@@ -1,0 +1,79 @@
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+
+.servicio .info h4 {
+    color: #FFB6C1;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid ;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.servicio .info p {
+    font-size: 13px;
+
+}
+
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+@media screen and (max-width:400px) {
+
+    .torta {
+        width: 200px;
+        height: 200px;
+    }
+
+    .servicio {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 14px;
+        margin: 14px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+
+    }
+
+    .francesa {
+        width: 200px;
+        height: 200px;
+    }
+
+    .catering {
+        width: 300px;
+        height: 300px;
+    }
+    .servicio .info p {
+        font-size: 13px;
+    
+    }
+    .servicio .info h4 {
+        color: #FFB6C1;
+        font-weight: 500;
+        font-style: italic;
+        border-bottom: 1px solid ;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .servicio:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+}

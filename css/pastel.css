@@ -1,0 +1,370 @@
+/* index comienzo*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 20px
+}
+
+header {
+    background-color: #800035;
+    padding: 16px 0;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+
+}
+
+nav {
+    background-color: #c93050;
+    margin-bottom: 20px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+p {
+    color: rgb(255, 204, 203);
+}
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgb(20, 43, 49);
+
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.titulo h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #FFB6C1;
+    font-size: 330%;
+}
+
+.titulo {
+    background-color: #800031;
+    height: 20px;
+    margin-top: -30px;
+}
+
+h3 {
+    color: #ebe7c4;
+}
+
+h4 {
+    color: #3d1447;
+}
+
+body {
+    background-color: #800031;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.pastelito {
+    width: 960px;
+    height: 500px;
+
+}
+
+.ima {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+/* fin index*/
+/*galeria*/
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 0.3 em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 25px;
+
+}
+
+/*novedades*/
+.novedades {
+    font-size: 15px;
+    margin: 10px
+}
+
+/*contacto*/
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 204, 203);
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+}
+
+li {
+    color: rgb(255, 204, 203);
+}
+
+/* esta parte es por debajo de 400*/
+@media screen and (max-width:400px) {
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F5DC;
+    }
+
+    nav ul li {
+        flex-grow: 2;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: justify;
+        margin-left: -30px;
+    }
+
+    header h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+        font-style: italic;
+        display: inline-flex;
+        position: relative;
+        bottom: 30px;
+        margin-left: 10px;
+
+    }
+
+    .profe {
+        margin-left: 40px;
+    }
+
+    .pastelito {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .texto {
+        width: 300px;
+        height: 400px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .columnas {
+        flex-direction: column;
+    }
+
+    .testimonios {
+        width: 10%;
+        margin-top: -100px;
+    }
+
+    .testimonio {
+        background-color: #ccc;
+        padding: 16px;
+        margin-left: 50px;
+        width: 150px;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .galeria img {
+        width: 80%;
+        border: 1px solid #ddd;
+        padding: 0.3 em;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-right: 2%;
+        margin-left: 30px;
+    }
+
+    p {
+        color: #FFB6C1;
+    }
+
+    .titulo h1 {
+        margin-top: 60px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;
+        font-style: normal;
+        color: rgb(232, 240, 191);
+        font-size: 160%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .contacto {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        margin: 20px;
+    }
+}
