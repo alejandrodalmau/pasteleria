@@ -254,7 +254,7 @@ li {
 }
 
 /* esta parte es por debajo de 400*/
-@media only screen and (min-device-width: 1600px) and (max-device-width: 720px){
+@media only screen and (max-width: 720px){
 
     nav ul {
         list-style: none;
@@ -266,7 +266,7 @@ li {
     }
 
     nav ul li {
-        flex-grow: 2;
+        flex-grow: 1;
 
     }
 
@@ -284,7 +284,7 @@ li {
         display: inline-flex;
         position: relative;
         bottom: 30px;
-        margin-left: 10px;
+        margin:10px;
 
     }
 
